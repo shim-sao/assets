@@ -25,6 +25,10 @@
       #forkme_banner {
         display: flex;
       }
+      .github_view_link {
+        color:ghostwhite;
+        line-height: 36px;
+      }
     </style>
   </head>
 
@@ -36,7 +40,7 @@
           <div id="forkme_banner">
           {% endif %}
             {% if site.github.is_project_page %}
-              <a href="{{ site.github.repository_url }}">View on GitHub</a>
+              <a class="github_view_link" href="{{ site.github.repository_url }}">View on GitHub</a>
             {% endif %}
 
             {% if site.show_downloads %}

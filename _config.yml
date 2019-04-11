@@ -8,7 +8,7 @@ theme: jekyll-theme-slate
 show_downloads: "false"
 
 # show main navigation bar.
-show_show_navbar: "false"
+show_navbar: "true"
 
 # Your Google Analytics tracking ID
 # google_analytics: [Your Google Analytics tracking ID]

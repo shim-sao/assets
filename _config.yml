@@ -1,4 +1,11 @@
-title: XtrmAddons Assets 
+# ##
+# WARNING: absolute use space instead of tab to indent file.
+# ##
+
+# generic title.
+title: XtrmAddons Assets
+
+# generic description.
 description: XtrmAddons assets and documentation examples.
 
 # see : https://github.com/pages-themes/slate

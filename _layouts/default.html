@@ -31,19 +31,21 @@
       }
       .navbar-brand-logo {
         line-height: 36px;
-        display: block;
+        display: flex;
         min-width: 180px;
       }
       .navbar-logo {
         width: 36px;
         height: 36px;
         padding:0;
-        margin:0 0 .5rem 0;
+        margin:.5rem;
         display: block;
         box-shadow: none;
+        border:0;
       }
       .navbar-logo-text {
         display: block;
+        /*margin-top:16px;*/
       }
     </style>
   </head>
@@ -79,7 +81,7 @@
       <div class="nav justify-content-center">
         <a class="navbar-brand navbar-brand-logo" href="https://www.xtrmaddons.com/">
           <img src="./images/logo.png" width="30" height="30" alt="www.xtrmaddons.com" class="navbar-logo" />
-          <span class="nav-item navbar-logo-text">XtrmAddons</span>
+          <span class="nav-link navbar-logo-text">XtrmAddons</span>
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>

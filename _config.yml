@@ -5,10 +5,10 @@ description: XtrmAddons assets and documentation examples.
 theme: jekyll-theme-slate
 
 # "true" or "false" to indicate whether to provide a download URL
-show_downloads: "false"
+show_downloads: true
 
 # show main navigation bar.
-show_navbar: "true"
+show_navbar: true
 
 # Your Google Analytics tracking ID
 # google_analytics: [Your Google Analytics tracking ID]

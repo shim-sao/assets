@@ -2,3 +2,10 @@
 ---
 
 @import "{{ site.theme }}";
+
+.zip_download_link {
+  width: 47px;
+  height: 36px;
+  background-size: 90px;
+  margin: 0 1rem;
+}

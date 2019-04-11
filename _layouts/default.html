@@ -14,8 +14,13 @@
       .zip_download_link {
         width: 47px;
         height: 36px;
+        min-width: 47px;
+        min-width: 36px;
+        max-width: 47px;
+        max-width: 36px;
         background-size: 90px;
-        margin: 0 1rem;
+        margin: 0 .5rem;
+        float: none;
       }
     </style>
   </head>
@@ -24,7 +29,6 @@
     <!-- HEADER -->
     <div id="header_wrap" class="outer">
         <header class="inner">
-
           {% if site.github.is_project_page || site.show_downloads %}
           <div id="forkme_banner">
           {% endif %}

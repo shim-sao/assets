@@ -9,7 +9,7 @@ title: XtrmAddons Assets
 description: XtrmAddons assets and documentation examples.
 
 # see : https://github.com/pages-themes/slate
-# theme: jekyll-theme-slate
+theme: jekyll-theme-slate
 
 # "true" or "false" to indicate whether to provide a download URL
 show_downloads: true

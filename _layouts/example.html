@@ -46,9 +46,15 @@
           <div class="nav navbar-inner">
             <!-- logo -->
             <a id="navbar-brand-logo" class="navbar-brand navbar-brand-logo" href="https://www.xtrmaddons.com/">
-              {{!-- <img src="./images/logo.png" width="30" height="30" alt="www.xtrmaddons.com" class="navbar-logo" /> --}}
-              <span class="glyphicon glyphicon-home" style="margin-right:10px"></span>
-              <span class="navbar-logo-text">XtrmAddons</span>
+              {% if site.navbar_brand_type == "img" && site.navbar_brand_img %}
+              <img src="{{ site.navbar_brand_img }}" width="30" height="30" alt="www.xtrmaddons.com" class="navbar-logo" />
+              {% endif %}
+              {% if site.navbar_brand_type == "icon" && site.navbar_brand_icon %}
+              <span class="glyphicon {{ site.navbar_brand_icon }}" style="margin-right:10px"></span>
+              {% endif %}
+              {% if site.navbar_brand_title %}
+              <span class="navbar-logo-text">{{ site.navbar_brand_title }}</span>
+              {% endif %}
             </a>
             <!-- menu toggler -->
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -70,15 +76,15 @@
 
 
     <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
+    <div id="main_content_wrap" class="container-fluid">
+      <section id="main_content" class="container">
         {{ content }}
       </section>
     </div>
 
     <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
+    <div id="footer_wrap" class="container-fluid">
+      <footer class="container">
         {% if site.github.is_project_page %}
         <p class="copyright">{{ site.title | default: site.github.repository_name }} maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
         {% endif %}

@@ -12,7 +12,7 @@ description: XtrmAddons assets and documentation examples.
 theme: jekyll-theme-slate
 
 # "true" or "false" to show page header.
-show_show_page_header: true
+show_page_header: true
 
 # "true" or "false" to indicate whether to provide a download URL
 show_downloads: true

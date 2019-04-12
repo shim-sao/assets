@@ -1,9 +1,4 @@
 ---
 ---
 
-body .navbar-brand, 
-body .navbar-logo-text {
-  color: #0090FF;
-}
-
 @import "{{ site.theme }}";

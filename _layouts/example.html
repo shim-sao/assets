@@ -47,13 +47,13 @@
             <!-- logo -->
             <a id="navbar-brand-logo" class="navbar-brand navbar-brand-logo" href="https://www.xtrmaddons.com/">
               {% if site.navbar_brand_type == "img" && site.navbar_brand_img %}
-              <img src="{{ site.navbar_brand_img }}" width="30" height="30" alt="www.xtrmaddons.com" class="navbar-logo" />
+              <img src="{{ site.navbar_brand_img }}" width="30" height="30" alt="www.xtrmaddons.com" class="navbar-logo debug" />
               {% endif %}
               {% if site.navbar_brand_type == "icon" && site.navbar_brand_icon %}
-              <span class="glyphicon {{ site.navbar_brand_icon }}" style="margin-right:10px"></span>
+              <span class="glyphicon {{ site.navbar_brand_icon }} debug"></span>
               {% endif %}
               {% if site.navbar_brand_title %}
-              <span class="navbar-logo-text">{{ site.navbar_brand_title }}</span>
+              <span class="navbar-logo-text debug">{{ site.navbar_brand_title }}</span>
               {% endif %}
             </a>
             <!-- menu toggler -->

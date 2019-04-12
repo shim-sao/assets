@@ -29,5 +29,8 @@ navbar_brand_icon: "glyphicon-home"
 # navbar brand image
 navbar_brand_img: "./assets/images/logo.png"
 
+# navbar brand title
+navbar_brand_title: "XtrmAddons"
+
 # Your Google Analytics tracking ID
 # google_analytics: [Your Google Analytics tracking ID]

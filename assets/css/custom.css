@@ -1,6 +1,7 @@
-.inner {
-  max-width: 990px;
-}
+/* overrides */
+.inner { max-width: 990px; }
+.debug { background: yellow; border:1px solid red }
+
 
 /* HEADER */
 #forkme_banner {

@@ -31,8 +31,11 @@
         </div>
         {% endif %}
 
-        <h1 id="project_title">{{ site.title | default: site.github.repository_name }}</h1>
-        <h2 id="project_tagline">{{ site.description | default: site.github.project_tagline }}</h2>
+        <div class="header-brand flex">
+          <img class="flex-item" src="{{ site.img }}" width="96" height="96" alt="www.xtrmaddons.com" />
+          <h1 class="flex-item" id="project_title">{{ site.title | default: site.github.repository_name }}</h1>
+          <h2 class="flex-item" id="project_tagline">{{ site.description | default: site.github.project_tagline }}</h2>
+        </div>
       </header>
     </div>
     {% endif %}

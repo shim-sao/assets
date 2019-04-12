@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: "en-US" }}">
-
   <head>
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,66 +8,14 @@
     <link rel="stylesheet" type="text/css" media="screen" href="{{ '/assets/css/bootstrap.min.css?v=' | append: site.github.build_revision | relative_url }}">
     <link rel="stylesheet" type="text/css" media="screen" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
     <link rel="stylesheet" type="text/css" media="screen" href="{{ '/assets/css/custom.css?v=' | append: site.github.build_revision | relative_url }}">
-
     {% seo %}
-    <style>
-      .tar_download_link,
-      .zip_download_link {
-        width: 47px;
-        height: 36px;
-        min-width: 47px;
-        min-height: 36px;
-        max-width: 47px;
-        max-height: 36px;
-        background-size: 90px;
-        margin: 0 .5rem;
-        float: none;
-      }
-      #forkme_banner {
-        display: flex;
-      }
-      .github_view_link {
-        color:ghostwhite;
-        line-height: 36px;
-      }
-      .navbar { 
-        margin-bottom:0;
-      }
-      .navbar-inner {
-        max-width: 640px;
-      }
-      .navbar-brand {
-        padding:0;
-      }
-      .navbar-brand-logo {
-        line-height: 36px;
-        display: flex;
-      }
-      .navbar-logo {
-        width: 36px;
-        height: 36px;
-        padding:0;
-        margin:.5rem;
-        display: block;
-        box-shadow: none;
-        border:0;
-      }
-      .navbar-logo-text {
-        display: block;
-        margin-top:10px;
-        padding-left: .5rem;
-        padding-right: .5rem;
-      }
-      .navbar-collapse {
-        padding-left:0;
-      }
-    </style>
   </head>
 
   <body>
     <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-      <header class="inner">
+    {% if site.show_page_header %}
+    <div id="header_wrap" class="container-fluid">
+      <header id="header-home" class="container">
         {% if site.github.is_project_page || site.show_downloads %}
         <div id="forkme_banner">
         {% endif %}
@@ -88,30 +35,33 @@
         <h2 id="project_tagline">{{ site.description | default: site.github.project_tagline }}</h2>
       </header>
     </div>
+    {% endif %}
 
           
     <!-- NAVBAR -->
     {% if site.show_navbar %}
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary justify-content-center">
-      <span class="glyphicon glyphicon-home" style="margin-right:10px"></span>
-      <div class="nav navbar-inner">
-        <a class="navbar-brand navbar-brand-logo" href="https://www.xtrmaddons.com/">
-          {{!-- <img src="./images/logo.png" width="30" height="30" alt="www.xtrmaddons.com" class="navbar-logo" /> --}}
-          <span class="navbar-logo-text">XtrmAddons</span>
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-            <a class="nav-item nav-link" href="#">Features</a>
-            <a class="nav-item nav-link" href="#">Pricing</a>
-            <a class="nav-item nav-link disabled" href="#">Disabled</a>
+    <div id="navbar_wrap" class="container-fluid">
+      <nav id="navbar-main-top" class="navbar navbar-expand-lg navbar-dark bg-primary container">
+        <span class="glyphicon glyphicon-home" style="margin-right:10px"></span>
+        <div class="nav navbar-inner">
+          <a class="navbar-brand navbar-brand-logo" href="https://www.xtrmaddons.com/">
+            {{!-- <img src="./images/logo.png" width="30" height="30" alt="www.xtrmaddons.com" class="navbar-logo" /> --}}
+            <span class="navbar-logo-text">XtrmAddons</span>
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+              <a class="nav-item nav-link" href="#">Features</a>
+              <a class="nav-item nav-link" href="#">Pricing</a>
+              <a class="nav-item nav-link disabled" href="#">Disabled</a>
+            </div>
           </div>
         </div>
-      </div>
-    </nav>
+      </nav>
+    </div>
     {% endif %}
 
 

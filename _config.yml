@@ -11,11 +11,23 @@ description: XtrmAddons assets and documentation examples.
 # see : https://github.com/pages-themes/slate
 theme: jekyll-theme-slate
 
+# "true" or "false" to show page header.
+show_show_page_header: true
+
 # "true" or "false" to indicate whether to provide a download URL
 show_downloads: true
 
 # show main navigation bar.
 show_navbar: true
+
+# navbar brand type: [icon|img]
+navbar_brand_type: "icon"
+
+# navbar brand icon
+navbar_brand_icon: "glyphicon-home"
+
+# navbar brand image
+navbar_brand_img: "./assets/images/logo.png"
 
 # Your Google Analytics tracking ID
 # google_analytics: [Your Google Analytics tracking ID]

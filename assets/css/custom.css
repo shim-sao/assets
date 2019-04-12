@@ -37,6 +37,8 @@
 /* MAIN NAVBAR TOP */
 #navbar-main-top .glyphicon {
   top:0;
+  max-height: 36px;
+  margin-top: 1rem;
 }
 
 

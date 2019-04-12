@@ -25,8 +25,13 @@
   line-height: 36px;
 }
 
+.header-brand {
+  margin: 1rem;
+}
 .g-logo {
-  margin: 2rem 0 0 2rem;
+  display: block;
+  height: 96px;
+  max-width: 320px;
 }
 
 

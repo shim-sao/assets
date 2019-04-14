@@ -5,6 +5,9 @@
 # reference site
 url: "https://www.xtrmaddons.com/"
 
+# company or user name
+author: "XtrmAddons"
+
 # generic title.
 title: XtrmAddons Assets
 
@@ -34,6 +37,12 @@ navbar_brand_img: "./assets/images/logo.png"
 
 # navbar brand title
 navbar_brand_title: "XtrmAddons"
+
+# navbar brand date start
+navbar_brand_date_start: "2007"
+
+# navbar brand date end
+navbar_brand_date_end: "2019"
 
 # Your Google Analytics tracking ID
 # google_analytics: [Your Google Analytics tracking ID]

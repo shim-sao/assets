@@ -477,9 +477,11 @@
         </a>
 
         <div class="nav-copyright">
-          © {{ site.author }} {{ site.navbar_brand_date_start }} - {{ site.navbar_brand_date_end }}<br />
-          {{ site.title | default: site.github.repository_name }} repository maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a><br />
-          Developed using <a href="https://jekyllrb.com" target="_blank">Jekyll</a> exclusively for XtrmAddons.
+          <div class="nav-copyright-inner">
+            © {{ site.author }} {{ site.navbar_brand_date_start }} - {{ site.navbar_brand_date_end }}<br />
+            {{ site.title | default: site.github.repository_name }} repository maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a><br />
+            Developed using <a href="https://jekyllrb.com" target="_blank">Jekyll</a> exclusively for XtrmAddons.
+          </div>
         </div>
 
         <ul class="nav justify-content-end">

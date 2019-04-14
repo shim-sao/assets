@@ -1,5 +1,6 @@
 /* overrides */
-.inner { max-width: 990px; }
+body { background: #17242D; }
+.inner { max-width: 1200px; }
 .debug { background: yellow; border:1px solid red }
 
 
@@ -38,8 +39,22 @@
 }
 
 #g-footer {
+  padding: 1rem;
   background: #17242d;
 }
+
+.nav-copyright {
+  color: #fff;
+  font-size: 0.75rem;
+  
+}
+
+.navbar-brand-bottom {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border:0;
+}
+
 
 
 .header-brand {

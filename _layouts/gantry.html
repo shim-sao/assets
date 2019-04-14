@@ -25,7 +25,8 @@
   <body>
     <!-- HEADER -->
     {% if site.show_page_header %}
-    <div id="header_wrap" class="g-navigation container-fluid">
+    <div id="header_wrap" class="container-fluid">
+      <div id="g-navigation">
       <header id="header-home" class="container">
         {% if site.github.is_project_page || site.show_downloads %}
         <div id="forkme_banner">
@@ -322,6 +323,7 @@
           <h1 class="flex-item" id="project_title">{{ site.title | default: site.github.repository_name }}</h1>
           <h2 class="flex-item" id="project_tagline">{{ site.description | default: site.github.project_tagline }}</h2>
         </div>
+      </div>
       </header>
     </div>
     {% endif %}

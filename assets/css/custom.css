@@ -104,13 +104,14 @@ body { background: #17242D; }
 }
 
 #g-footer .nav-brand {
-  margin-right: 1rem;
+  margin-right: 2rem;
   padding-top: 0.5rem;
 }
 
 .nav-copyright {
   color: #fff;
   font-size: 0.75rem;
+  margin-top:0.5rem;
 }
 
 .navbar-text {

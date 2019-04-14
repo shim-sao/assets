@@ -130,4 +130,5 @@ body { background: #17242D; }
 .nav > li > a:focus, .nav > li > a:hover {
   background:transparent;
   border:0;
+  border-bottom:2px solid #ccc;
 }

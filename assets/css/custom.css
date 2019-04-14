@@ -44,8 +44,9 @@ body { background: #17242D; }
 
 .g-logo {
   display: block;
-  height: 96px;
+  height: 64px;
   max-width: 320px;
+  margin-left: -3rem;
 }
 
 

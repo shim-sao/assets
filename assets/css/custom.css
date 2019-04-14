@@ -103,9 +103,8 @@ body { background: #17242D; }
   padding:0 2rem;
 }
 
-#g-footer .nav-brand {
+#g-footer .navbar-brand {
   margin-right: 2rem;
-  padding-top: 0.5rem;
 }
 
 .nav-copyright {
@@ -125,5 +124,10 @@ body { background: #17242D; }
 }
 
 .nav-menu {
-  margin-top: -2rem;
+  margin-top: -3rem;
+}
+
+.nav-menu a:hover {
+  background:transparent;
+  border:0;
 }

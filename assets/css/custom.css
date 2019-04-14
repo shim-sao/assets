@@ -127,7 +127,7 @@ body { background: #17242D; }
   margin-top: -3rem;
 }
 
-.nav-menu a:hover {
+.nav > li > a:focus, .nav > li > a:hover {
   background:transparent;
   border:0;
 }

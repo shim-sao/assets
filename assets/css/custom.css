@@ -39,7 +39,7 @@ body { background: #17242D; }
 }
 
 #g-footer {
-  padding: 1rem;
+  padding: 3rem 0;
   background: #17242d;
 }
 
@@ -49,10 +49,8 @@ body { background: #17242D; }
   
 }
 
-.navbar-brand-bottom {
-  margin-top: 15px;
-  margin-bottom: 15px;
-  border:0;
+.navbar-text {
+  margin-left: 1rem;
 }
 
 

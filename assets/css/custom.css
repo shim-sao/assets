@@ -38,33 +38,6 @@ body { background: #17242D; }
   background: linear-gradient(to top, #17242d, #0f181e)
 }
 
-#g-footer {
-  padding: 3rem 0;
-  background: #17242d;
-}
-
-.nav-copyright {
-  color: #fff;
-  font-size: 0.75rem;
-  max-width: 340px;
-}
-
-.nav-copyright-inner {
-  margin-left: 2rem;
-}
-
-.navbar-text {
-  margin-left: 1rem;
-}
-
-#g-footer .nav-link {
-  display: inline-block;
-  padding: 0 0 0.5rem;
-  margin-bottom: 0.5rem;
-}
-
-
-
 .header-brand {
   margin: 1rem;
 }
@@ -117,4 +90,36 @@ body { background: #17242D; }
 }
 .navbar-collapse {
   padding-left:0;
+}
+
+
+/* FOOTER */
+#g-footer {
+  padding: 3rem 0;
+  background: #17242d;
+}
+
+#g-footer .nav-brand {
+  margin-right: 1rem;
+  padding-top: 0.5rem;
+}
+
+.nav-copyright {
+  color: #fff;
+  font-size: 0.75rem;
+  max-width: 340px;
+}
+
+.navbar-text {
+  margin-left: 1rem;
+}
+
+#g-footer .nav-link {
+  display: inline-block;
+  padding: 0 0 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.nav-menu {
+  margin-top: -2rem;
 }

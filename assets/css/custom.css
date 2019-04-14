@@ -46,11 +46,21 @@ body { background: #17242D; }
 .nav-copyright {
   color: #fff;
   font-size: 0.75rem;
-  
+  max-width: 340px;
+}
+
+.nav-copyright-inner {
+  margin-left: 2rem;
 }
 
 .navbar-text {
   margin-left: 1rem;
+}
+
+#g-footer .nav-link {
+  display: inline-block;
+  padding: 0 0 0.5rem;
+  margin-bottom: 0.5rem;
 }
 
 

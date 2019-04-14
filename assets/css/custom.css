@@ -37,6 +37,10 @@
   background: linear-gradient(to top, #17242d, #0f181e)
 }
 
+#g-footer {
+  background: #0f181e;
+}
+
 
 .header-brand {
   margin: 1rem;

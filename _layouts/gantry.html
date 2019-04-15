@@ -34,7 +34,7 @@
 
           <div class="header-brand flex">
             <a href="/" target="_self" title="" rel="home" class="g-logo g-logo-xtrmaddons">
-              {% include logo-name.html %}
+              {% include brand/logo-name.html %}
               </a>
             <h1 class="flex-item" id="project_title">{{ site.title | default: site.github.repository_name }}</h1>
             <h2 class="flex-item" id="project_tagline">{{ site.description | default: site.github.project_tagline }}</h2>
@@ -90,7 +90,7 @@
     <footer id="g-footer">
       <div class="container">
         <a href="/" target="_self" title="logo" rel="home" class="navbar-brand navbar-brand-bottom">
-          {% include logo.html %}
+          {% include brand/logo.html %}
         </a>
 
         <div class="nav-copyright">

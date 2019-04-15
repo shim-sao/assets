@@ -1,0 +1,17 @@
+/* ***** Focus ***** */
+a:focus, button:focus, input:focus, img:focus { outline:0 }
+
+/* ***** text justify */
+.justify, .justified { text-align:justify }
+
+/* ***** useful debug class */
+.debug {
+  border:1px solid red;
+  background: yellow;
+}
+
+.navbar-brand-bottom {
+  display: block;
+  width: 64px;
+  height:64px;
+}

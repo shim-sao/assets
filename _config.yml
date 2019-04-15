@@ -15,7 +15,7 @@ title: XtrmAddons Assets
 description: XtrmAddons assets and documentation examples.
 
 # see : https://github.com/pages-themes/slate
-theme: jekyll-theme-slate
+# theme: jekyll-theme-slate
 
 # "true" or "false" to show page header.
 show_page_header: true

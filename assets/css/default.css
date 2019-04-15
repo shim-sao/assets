@@ -1,0 +1,135 @@
+/* overrides */
+body { background: #17242D; }
+.inner { max-width: 1200px; }
+.debug { background: yellow; border:1px solid red }
+
+
+/* HEADER */
+#forkme_banner {
+  display: flex;
+}
+
+.tar_download_link,
+.zip_download_link {
+  width: 47px;
+  height: 36px;
+  min-width: 47px;
+  min-height: 36px;
+  max-width: 47px;
+  max-height: 36px;
+  background-size: 90px;
+  margin: 0 .5rem;
+  float: none;
+}
+
+.github_view_link {
+  color:ghostwhite;
+  line-height: 36px;
+}
+
+#g-navigation {
+  width: 100%;
+  color: #fff;
+  background: #0f181e;
+  background: -moz-linear-gradient(top, #17242d, #0f181e);
+  background: -webkit-linear-gradient(top, #17242d, #0f181e);
+  background: -ms-linear-gradient(top, #17242d, #0f181e);
+  background: -o-linear-gradient(top, #17242d, #0f181e);
+  background: linear-gradient(to top, #17242d, #0f181e)
+}
+
+.header-brand {
+  margin: 1rem;
+}
+
+.g-logo {
+  display: block;
+  height: 64px;
+  max-width: 320px;
+  margin-left: -3rem;
+}
+
+
+/* MAIN NAVBAR TOP */
+#navbar-main-top .glyphicon {
+  top:0;
+  max-height: 36px;
+  margin-top: 1rem;
+}
+
+
+
+
+
+.navbar { 
+  margin-bottom:0;
+}
+.navbar-inner {
+  max-width: 640px;
+}
+.navbar-brand {
+  padding:0;
+}
+.navbar-brand-logo {
+  line-height: 36px;
+  display: flex;
+}
+.navbar-logo {
+  width: 36px;
+  height: 36px;
+  padding:0;
+  margin:.5rem;
+  display: block;
+  box-shadow: none;
+  border:0;
+}
+.navbar-logo-text {
+  display: block;
+  margin-top:10px;
+  padding-left: .5rem;
+  padding-right: .5rem;
+}
+.navbar-collapse {
+  padding-left:0;
+}
+
+
+/* FOOTER */
+#g-footer {
+  padding: 3rem 0;
+  background: #17242d;
+}
+
+#g-footer .container {
+  padding:0 2rem;
+}
+
+#g-footer .navbar-brand {
+  margin-right: 2rem;
+}
+
+.nav-copyright {
+  color: #fff;
+  font-size: 0.75rem;
+  margin-top:0.5rem;
+}
+
+.navbar-text {
+  margin-left: 1rem;
+}
+
+#g-footer .nav-link {
+  display: inline-block;
+  margin-bottom: 0.5rem;
+  line-height:2rem;
+}
+
+.nav-menu {
+  margin-top: -3rem;
+}
+
+.nav > li > a:focus, .nav > li > a:hover {
+  background:transparent;
+  border:0;
+  border-bottom:2px solid #ccc;
+}

@@ -2,6 +2,9 @@ body {
   line-height: 2rem;
 }
 
+/* *** float | flex *** */
+.clearfix { clear: borth; }
+
 /* ***** Focus ***** */
 a:focus, button:focus, input:focus, img:focus { outline:0 }
 

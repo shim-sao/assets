@@ -18,6 +18,10 @@ body {
   background: #17242D;
 }
 
+.container {
+  padding:0 2rem;
+}
+
 .content-header {
   width: 100%;
   color: #fff;
@@ -60,10 +64,6 @@ body {
   display: block;
   width: 42px;
   height:42px;
-}
-
-#footer-content .container {
-  padding:0 2rem;
 }
 
 #footer-content .navbar-brand {

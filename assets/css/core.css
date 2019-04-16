@@ -51,6 +51,7 @@ body {
   padding: 3rem 0;
 }
 
+.brand-logo,
 .navbar-brand-bottom {
   display: block;
   width: 42px;

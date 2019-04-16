@@ -44,6 +44,10 @@ body {
   background:#F2F2F2;
 }
 
+#content-section .container {
+  padding:2rem;
+}
+
 /* *** FOOTER *** */
 #footer-content {
   background: #17242d;

@@ -66,6 +66,9 @@ body {
   width: 42px;
   height:42px;
 }
+.navbar-brand-bottom {
+  margin-top: .2rem;
+}
 
 #footer-content .navbar-brand {
   margin-right: 2rem;
@@ -74,7 +77,6 @@ body {
 .nav-copyright {
   color: #fff;
   font-size: 0.75rem;
-  margin-top:0.2rem;
   margin-left:96px;
   line-height:1.5rem;
 }

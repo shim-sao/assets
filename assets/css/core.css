@@ -14,27 +14,43 @@ a:focus, button:focus, input:focus, img:focus { outline:0 }
   background: yellow;
 }
 
-.navbar-brand-bottom {
-  display: block;
-  width: 64px;
-  height:64px;
-}
-
 
 body {
   background: #17242D;
 }
+
+.content-header {
+  width: 100%;
+  color: #fff;
+  background: #0f181e;
+  background: -moz-linear-gradient(top, #17242d, #0f181e);
+  background: -webkit-linear-gradient(top, #17242d, #0f181e);
+  background: -ms-linear-gradient(top, #17242d, #0f181e);
+  background: -o-linear-gradient(top, #17242d, #0f181e);
+  background: linear-gradient(to top, #17242d, #0f181e)
+}
+
 #content-section {
   background:#F2F2F2;
 }
+
+.navbar {
+  margin-bottom: 0;
+}
+
+.brand-logo-name {
+  height: 42px;
+  margin-top: -5px;
+}
+
 #footer-content {
   background: #17242d;
   color: #fff;
   padding: 3rem 0;
 }
-.navbar {
-  margin-bottom: 0;
-}
-.brand-logo-name {
-  max-width: 48px;
+
+.navbar-brand-bottom {
+  display: block;
+  width: 42px;
+  height:42px;
 }

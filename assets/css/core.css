@@ -32,7 +32,9 @@ body {
   color: #fff;
   padding: 3rem 0;
 }
-
+.navbar {
+  margin-bottom: 0;
+}
 .brand-logo-name {
   max-width: 48px;
 }

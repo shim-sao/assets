@@ -51,11 +51,11 @@ body {
 }
 
 .nav-lang li {
-  float: left;
   border:0;
+  display: inline;
 }
 
-.nav-link-lang {
+body .nav > li > a.nav-link-lang {
   margin: 0;
   padding: 0;
   border:0;

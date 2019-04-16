@@ -3,7 +3,7 @@ body {
 }
 
 /* *** float | flex *** */
-.clearfix { clear: borth; }
+.clearfix { clear:both; }
 
 /* ***** Focus ***** */
 a:focus, button:focus, input:focus, img:focus { outline:0 }

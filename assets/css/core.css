@@ -97,7 +97,7 @@ body {
 
 
 /* *** CUSTOM STYLES ** */
-.item-image {
+.item-image img {
   display:block;
   max-width:160px;
   max-height:160px;

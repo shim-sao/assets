@@ -14,7 +14,6 @@ a:focus, button:focus, input:focus, img:focus { outline:0 }
   background: yellow;
 }
 
-
 body {
   background: #17242D;
 }
@@ -30,10 +29,7 @@ body {
   background: linear-gradient(to top, #17242d, #0f181e)
 }
 
-#content-section {
-  background:#F2F2F2;
-}
-
+/* *** MAIN NAVBAR TOP *** */
 .navbar {
   margin-bottom: 0;
 }
@@ -43,6 +39,12 @@ body {
   margin-top: -5px;
 }
 
+/* *** CONTENT *** */
+#content-section {
+  background:#F2F2F2;
+}
+
+/* *** FOOTER *** */
 #footer-content {
   background: #17242d;
   color: #fff;
@@ -53,4 +55,34 @@ body {
   display: block;
   width: 42px;
   height:42px;
+}
+
+#footer-content .container {
+  padding:0 2rem;
+}
+
+#footer-content .navbar-brand {
+  margin-right: 2rem;
+}
+
+.nav-copyright {
+  color: #fff;
+  font-size: 0.75rem;
+  margin-top:0.5rem;
+}
+
+#footer-content .nav-link {
+  display: inline-block;
+  margin-bottom: 0.5rem;
+  line-height:2rem;
+}
+
+.nav-menu {
+  margin-top: -3rem;
+}
+
+.nav > li > a:focus, .nav > li > a:hover {
+  background:transparent;
+  border:0;
+  border-bottom:2px solid #ccc;
 }

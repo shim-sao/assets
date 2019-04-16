@@ -50,6 +50,23 @@ body {
   margin-top: -5px;
 }
 
+.nav-lang li {
+  float: left;
+  border:0;
+}
+
+.nav-link-lang {
+  margin: 0;
+  padding: 0;
+  border:0;
+}
+
+.nav-link-lang img {
+  margin: 0 .5rem;
+  padding: 0;
+  border:0;
+}
+
 /* *** CONTENT *** */
 #content-section {
   background:#F2F2F2;

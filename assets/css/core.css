@@ -67,6 +67,12 @@ body .nav > li > a.nav-link-lang {
   border:0;
 }
 
+@media all and (max-width: 768) {
+  .nav-link-lang {
+    margin-top:.5rem;
+  }
+}
+
 /* *** CONTENT *** */
 #content-section {
   background:#F2F2F2;

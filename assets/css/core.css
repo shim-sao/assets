@@ -68,8 +68,8 @@ body .nav > li > a.nav-link-lang {
 }
 
 @media all and (max-width: 768) {
-  .nav-link-lang {
-    margin-top:.5rem;
+  .nav-lang {
+    /*margin-left:.2rem;*/
   }
 }
 

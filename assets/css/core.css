@@ -4,14 +4,14 @@ body {
 }
 
 h1 {
-  font-weight: 400;
-  font-size: 1.5rem;
+  /*font-weight: 400;
+  font-size: 1.5rem;*/
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-weight: 400;
   color: #2a363b;
   font-family: 'Raleway', 'Helvetica', 'Tahoma', 'Geneva', 'Arial', sans-serif;
+  font-weight: 400;
 }
 
 /*h2 { font-size: 24px; }
@@ -28,10 +28,7 @@ a:focus, button:focus, input:focus, img:focus { outline:0 }
 .pull-left { float:left; }
 
 /* ***** useful debug class */
-.debug {
-  border:1px solid red;
-  background: yellow;
-}
+.debug { border:1px solid red; background: yellow; }
 
 body {
   background: #17242D;
@@ -93,14 +90,6 @@ body .nav > li > a.nav-link-lang {
   padding: 0;
   border:0;
 }
-
-/*
-@media all and (max-width: 768) {
-  .nav-lang {
-    margin-left:.2rem;
-  }
-}
-*/
 
 #content-submenu { background: #F2F2F2; padding: 0.5rem; }
 #content-submenu a { border: 0; }

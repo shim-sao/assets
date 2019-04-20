@@ -93,14 +93,17 @@ body .nav > li > a.nav-link-lang {
   border:0;
 }
 
+/*
 @media all and (max-width: 768) {
   .nav-lang {
-    /*margin-left:.2rem;*/
+    margin-left:.2rem;
   }
 }
+*/
 
-#content-submenu { background: #F2F2F2; padding-top: 0.5rem }
-#content-submenu a { border:0 }
+#content-submenu { background: #F2F2F2; padding: 0.5rem; }
+#content-submenu a { border:0; }
+
 .container-breadcrumb { background: #F2F2F2; padding-top: 0.5rem }
 .container-breadcrumb .container { background: #F2F2F2; padding:0 }
 .container-breadcrumb nav { background: #ff847c; padding:0 }

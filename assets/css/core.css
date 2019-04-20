@@ -117,6 +117,10 @@ body .nav > li > a.nav-link-lang {
   background:#FEFEFE;
 }
 
+#content-section hr {
+  margin:1rem 0;
+}
+
 /* *** FOOTER *** */
 #footer-content {
   background: #17242d;

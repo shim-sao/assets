@@ -89,6 +89,13 @@ body .nav > li > a.nav-link-lang {
   #content-header .navbar-nav li { padding-left:1rem; }
 }
 
+@media (min-width: 576px) {
+  ul.nav.nav-lang.navbar-nav.ml-auto { float: right; }
+  #content-header .navbar-nav { flex-direction: row; }
+  #content-header .navbar-nav li { padding-left:1rem; }
+  #content-header .navbar-lang { margin-top: -2rem; }
+}
+
 #content-submenu { background: #F2F2F2; padding: 0.5rem; padding-top:0; }
 #content-submenu .nav-submenu { background:#355C7D; }
 #content-submenu a { border: 0; color: #FFF; }

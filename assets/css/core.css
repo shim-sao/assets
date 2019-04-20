@@ -109,6 +109,11 @@ body .nav > li > a.nav-link-lang {
 .container-breadcrumb nav { background: #ff847c; padding: 0; }
 .breadcrumb  { color: #fff; background: transparent; }
 .breadcrumb a { color: #fff; }
+.breadcrumb > li + li::before {
+  padding: 0 5px;
+  color: #FFF;
+  content: ">";
+}
 
 /* *** CONTENT *** */
 #content-section {

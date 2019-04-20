@@ -90,7 +90,8 @@ body .nav > li > a.nav-link-lang {
 .container-breadcrumb { background: #F2F2F2 }
 .container-breadcrumb .container { background: #F2F2F2; padding:0 }
 .container-breadcrumb nav { background: #ff847c; padding:0 }
-.breadcrumb  { background: transparent; }
+.breadcrumb  { color: #fff; background: transparent; }
+.breadcrumb a { color: #fff; }
 
 /* *** CONTENT *** */
 #content-section {

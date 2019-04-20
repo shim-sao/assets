@@ -83,6 +83,10 @@ body .nav > li > a.nav-link-lang {
   border:0;
 }
 
+@media (min-width: 768px) {
+  ul.nav.nav-lang.navbar-nav.ml-auto { float: right; }
+}
+
 #content-submenu { background: #F2F2F2; padding: 0.5rem; padding-top:0; }
 #content-submenu .nav-submenu { background:#355C7D; }
 #content-submenu a { border: 0; color: #FFF; }

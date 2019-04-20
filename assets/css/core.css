@@ -87,6 +87,8 @@ body .nav > li > a.nav-link-lang {
   }
 }
 
+.container-breadcrumb { background: #F2F2F2 }
+
 /* *** CONTENT *** */
 #content-section {
   background:#F2F2F2;

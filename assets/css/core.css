@@ -87,7 +87,7 @@ body .nav > li > a.nav-link-lang {
   }
 }
 
-.container-breadcrumb { background: #F2F2F2; margin-top: 0.5rem }
+.container-breadcrumb { background: #F2F2F2; padding-top: 0.5rem }
 .container-breadcrumb .container { background: #F2F2F2; padding:0 }
 .container-breadcrumb nav { background: #ff847c; padding:0 }
 .breadcrumb  { color: #fff; background: transparent; }

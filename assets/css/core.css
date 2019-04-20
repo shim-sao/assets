@@ -85,6 +85,8 @@ body .nav > li > a.nav-link-lang {
 
 @media (min-width: 768px) {
   ul.nav.nav-lang.navbar-nav.ml-auto { float: right; }
+  #content-header .navbar-nav { flex-direction: raw; }
+  #content-header .navbar-nav li { padding-left:1rem; }
 }
 
 #content-submenu { background: #F2F2F2; padding: 0.5rem; padding-top:0; }

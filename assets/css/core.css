@@ -124,7 +124,6 @@ body .nav > li > a.nav-link-lang {
 }
 
 /* *** FOOTER *** */
-#footer-content,
 #content-footer {
   background: #17242d;
   color: #fff;
@@ -141,12 +140,12 @@ body .nav > li > a.nav-link-lang {
   box-shadow: none;
 }
 .navbar-brand-bottom {
-  margin-top: .2rem;
+  margin: 0;
+  padding:0;
 }
 
-#content-footer .navbar-brand,
-#footer-content .navbar-brand {
-  margin-right: 2rem;
+#content-footer .navbar-brand {
+  /*margin-right: 2rem;*/
 }
 
 .nav-copyright {
@@ -156,8 +155,7 @@ body .nav > li > a.nav-link-lang {
   line-height:1.5rem;
 }
 
-#content-footer .nav-link,
-#footer-content .nav-link {
+#content-footer .nav-link {
   display: inline-block;
   margin-bottom: 0.5rem;
   line-height:2rem;

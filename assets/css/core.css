@@ -1,31 +1,3 @@
-body {
-  color: #2a363b;
-  font-family: 'Raleway', 'Helvetica', 'Tahoma', 'Geneva', 'Arial', sans-serif;
-  line-height: 2rem;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  color: #2a363b;
-  font-weight: 400;
-}
-
-/* *** float | flex *** */
-.clearfix { clear:both; }
-
-/* ***** Focus ***** */
-a:focus, button:focus, input:focus, img:focus { outline:0 }
-
-/* ***** text justify */
-.justify, .justified { text-align:justify }
-.pull-left { float:left; }
-
-/* ***** useful debug class */
-.debug { border:1px solid red; background: yellow; }
-
-body {
-  background: #17242D;
-}
-
 .container {
   padding:0 2rem;
 }

@@ -50,3 +50,23 @@ a:focus, button:focus, input:focus, img:focus { outline:0 }
 }
 
 
+
+/* *** MAIN NAVBAR TOP *** */
+.navbar {
+  margin-bottom: 0;
+  min-height: auto;
+  padding: .2rem 1rem;
+}
+
+.navbar-brand-logo img {
+  border: 0;
+  box-shadow: none;
+  height: 42px;
+  margin: -5px 0 0 0;
+  padding: 0;
+}
+
+/*.brand-logo-name {
+  height: 42px;
+  margin-top: -5px;
+}*/

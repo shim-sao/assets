@@ -83,3 +83,20 @@ a:focus, button:focus, input:focus, img:focus { outline:0 }
     }
   }
 } 
+
+@media (min-width: 768px) {
+  ul.nav.nav-lang.navbar-nav.ml-auto { float: right; }
+  #content-header {
+    .navbar-nav { 
+      flex-direction: row;
+      li { padding-left:1rem; }
+    }
+  }
+}
+
+@media (min-width: 576px) {
+  ul.nav.nav-lang.navbar-nav.ml-auto { float: right; }
+  #content-header .navbar-nav { flex-direction: row; }
+  #content-header .navbar-nav li { padding-left:1rem; }
+  #content-header .nav-lang { margin-top: 10px; }
+}

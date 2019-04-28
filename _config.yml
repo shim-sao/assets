@@ -17,24 +17,23 @@ title: XtrmAddons Assets
 # generic description.
 description: XtrmAddons assets and documentation examples.
 
-# generic assets link root.
-assets: ""
+# Generic assets links.
+assets:
+  css: "https://github.assets.xtrmaddons.com/assets/css/"
+  img: "https://github.assets.xtrmaddons.com/assets/images/"
+  js: "https://github.assets.xtrmaddons.com/assets/js/"
+
+# navbar
+navbar:
+  brand:
+    icon: "glyphicon-home"
+    img: "logo-name.svg"
+    title: ""
+    type: "img"
 
 # pages collection
 # see : https://jekyllrb.com/docs/collections/
 collections_dir: "docs"
-
-# navbar brand type: [icon|img]
-navbar_brand_type: "img"
-
-# navbar brand icon
-navbar_brand_icon: "glyphicon-home"
-
-# navbar brand image
-navbar_brand_img: "/assets/images/logo.png"
-
-# navbar brand title
-navbar_brand_title: ""
 
 # navbar brand
 brand:

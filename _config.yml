@@ -7,6 +7,7 @@ theme: jekyll-theme-slate
 
 # reference site
 url: "https://www.xtrmaddons.com/"
+cname: "https://github.wp-widget-to-top.xtrmaddons.com/"
 
 # company or user name
 author: "XtrmAddons"
@@ -16,6 +17,9 @@ title: XtrmAddons Assets
 
 # generic description.
 description: XtrmAddons assets and documentation examples.
+
+# comments with disqus
+disqus: "xtrmaddons"
 
 # Generic assets links.
 assets:
@@ -31,15 +35,15 @@ navbar:
     title: ""
     type: "img"
 
-# pages collection
-# see : https://jekyllrb.com/docs/collections/
-collections_dir: "docs"
-
 # navbar brand
-brand:
-  copyright:
-    date_start: "2007"
-    date_end: "2019"
+copyright:
+  date_start: "2007"
+  date_end: "2019"
 
-# Your Google Analytics tracking ID
-google_analytics: "UA-107731670-1"
+# Google Analytics tracking ID
+google:
+  analytics: "UA-107731670-1"
+  adsense:
+    client: "ca-pub-1175089473544116"
+    slot: "6837462325"
+    format: "auto"

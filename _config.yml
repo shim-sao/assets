@@ -23,9 +23,9 @@ disqus: "xtrmaddons"
 
 # Generic assets links.
 assets:
-  css: "https://github.assets.xtrmaddons.com/assets/css/"
+  css: "https://github.assets.xtrmaddons.com/assets/css"
   img: "https://github.assets.xtrmaddons.com/assets/images/"
-  js: "https://github.assets.xtrmaddons.com/assets/js/"
+  js: "https://github.assets.xtrmaddons.com/assets/js"
 
 # navbar
 navbar:

@@ -605,9 +605,7 @@
   </div>
 </div>
 <script type="text/javascript">
-  $(document).on('load', function(){
-    $(window).load(function(){
-      $('.preloader').delay(400).fadeOut(500);
-    })
+  window.addEventListener("load", function(event) {
+    $('.preloader').delay(400).fadeOut(500);
   })
 </script>

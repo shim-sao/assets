@@ -18,6 +18,9 @@ title: XtrmAddons Assets
 # generic description.
 description: XtrmAddons assets and documentation examples.
 
+# enable preloader
+preloader: default
+
 # comments with disqus
 disqus: "xtrmaddons"
 

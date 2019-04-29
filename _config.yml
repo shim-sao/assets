@@ -7,6 +7,7 @@ theme: jekyll-theme-slate
 
 # reference site
 url: "https://www.xtrmaddons.com/"
+cname: "https://github.wp-widget-to-top.xtrmaddons.com/"
 
 # company or user name
 author: "XtrmAddons"
@@ -17,30 +18,32 @@ title: XtrmAddons Assets
 # generic description.
 description: XtrmAddons assets and documentation examples.
 
-# generic assets link root.
-assets: ""
+# comments with disqus
+disqus: "xtrmaddons"
 
-# pages collection
-# see : https://jekyllrb.com/docs/collections/
-collections_dir: "docs"
+# Generic assets links.
+assets:
+  css: "https://github.assets.xtrmaddons.com/assets/css/"
+  img: "https://github.assets.xtrmaddons.com/assets/images/"
+  js: "https://github.assets.xtrmaddons.com/assets/js/"
 
-# navbar brand type: [icon|img]
-navbar_brand_type: "img"
-
-# navbar brand icon
-navbar_brand_icon: "glyphicon-home"
-
-# navbar brand image
-navbar_brand_img: "/assets/images/logo.png"
-
-# navbar brand title
-navbar_brand_title: ""
+# navbar
+navbar:
+  brand:
+    icon: "glyphicon-home"
+    img: "logo-name.svg"
+    title: ""
+    type: "img"
 
 # navbar brand
-brand:
-  copyright:
-    date_start: "2007"
-    date_end: "2019"
+copyright:
+  date_start: "2007"
+  date_end: "2019"
 
-# Your Google Analytics tracking ID
-google_analytics: "UA-107731670-1"
+# Google Analytics tracking ID
+google:
+  analytics: "UA-107731670-1"
+  adsense:
+    client: "ca-pub-1175089473544116"
+    slot: "6837462325"
+    format: "auto"

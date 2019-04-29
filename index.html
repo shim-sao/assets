@@ -1,11 +1,12 @@
 ---
+id: 100
 permalink: /
 lang: en-US
-layout: index
+layout: default
 title: XtrmAddons | Documentation Examples
-brand:
-  copyright:
-    date_start: 2019
+comments: false
+copyright:
+  date_start: 2019
 menu:
 - name: Blog
   href: https://www.xtrmaddons.com/en/en-blog
@@ -30,26 +31,43 @@ breadcrumb:
   href: "#"
 - name: Link3
   href: "#"
+adsense:
+  top: true
+  bottom: false
 ---
 
 <div class="main-content d-flex">
   <div class="p-2 flex-grow-1">
-    <h1>Title level 1</h1>
-    <p class="justify">
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent at arcu odio. Nulla facilisi. Mauris quis felis elementum, dignissim justo placerat, mattis diam. Sed ut mi fermentum, rutrum elit in, vulputate risus. In non rhoncus elit, vehicula hendrerit ligula. Donec nec faucibus magna. Etiam varius quam sed eros molestie hendrerit. Mauris eu semper orci. Nullam pharetra risus mi, efficitur accumsan ligula aliquet at. In vel dignissim sapien.
-    </p>
-    <h2>Title level 2</h2>
-    <p class="justify">
-      Donec mauris turpis, porta in efficitur a, venenatis sit amet eros. Sed at scelerisque urna, a fringilla arcu. Suspendisse vel lorem aliquet, euismod est ac, elementum est. Fusce elit risus, consequat ut eros sit amet, mattis lacinia nulla. Vivamus commodo non lectus vitae laoreet. Donec at dolor ac tortor suscipit rutrum. Nullam leo sem, rhoncus sed pretium ut, iaculis nec neque.
-    </p>
-    <h3>Title level 3</h3>
-    <h4>Title level 4</h4>
-    <h5>Title level 5</h5>
-    <h6>Title level 6</h6>
+    <div id="topography">
+      <h1>Title level 1</h1>
+      <p class="justify">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent at arcu odio. Nulla facilisi. Mauris quis felis elementum, dignissim justo placerat, mattis diam. Sed ut mi fermentum, rutrum elit in, vulputate risus. In non rhoncus elit, vehicula hendrerit ligula. Donec nec faucibus magna. Etiam varius quam sed eros molestie hendrerit. Mauris eu semper orci. Nullam pharetra risus mi, efficitur accumsan ligula aliquet at. In vel dignissim sapien.
+      </p>
+      <h2>Title level 2</h2>
+      <p class="justify">
+        Donec mauris turpis, porta in efficitur a, venenatis sit amet eros. Sed at scelerisque urna, a fringilla arcu. Suspendisse vel lorem aliquet, euismod est ac, elementum est. Fusce elit risus, consequat ut eros sit amet, mattis lacinia nulla. Vivamus commodo non lectus vitae laoreet. Donec at dolor ac tortor suscipit rutrum. Nullam leo sem, rhoncus sed pretium ut, iaculis nec neque.
+      </p>
+      <h3>Title level 3</h3>
+      <h4>Title level 4</h4>
+      <h5>Title level 5</h5>
+      <h6>Title level 6</h6>
+    </div>
+
+    <div id="list">
+      <ul>
+        <li>List item 1</li>
+        <li>List item 2</li>
+        <li>List item 3</li>
+      </ul>
+    </div>
   </div>
+  
   <div class="p-2">
     <nav>
-      <a href="#">Topography</a>
+      <ul>
+        <li><a href="#topography">Topography</a></li>
+        <li><a href="#list">list</a></li>
+      </ul>
     </nav>
   </div>
 </div>

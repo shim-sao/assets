@@ -1,7 +1,11 @@
 <div class="preloader">
   <style>
     .preloader {
+      position:absolute;
+      width:100%;
+      height:100%;
       background: #3a3f44;
+      z-index:1000;
     }
 
 		.wrapper{
@@ -601,10 +605,9 @@
   </div>
 </div>
 <script type="text/javascript">
-  jQuery(document).ready(function () {
-    jQuery(window).load(function(){
-      jQuery('.preloader').delay(400).fadeOut(500);
+  $(document).ready(function () {
+    $(window).load(function(){
+      $('.preloader').delay(400).fadeOut(500);
     })
-
   })
 </script>

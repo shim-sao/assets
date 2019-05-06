@@ -1,10 +1,18 @@
 body {
   color: #2a363b;
   font-family: "Raleway", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+  font-size: 1rem;
   font-weight: 400;
-  line-height: 2rem;
+  line-height: 2;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: auto;
 }
 
 .justify, .justified { text-align: justify }
 .main-content { padding-bottom: 1rem }
 p { margin-bottom: 1rem; }
+
+code, kbd, pre, samp {
+  font-size: 1rem;
+  font-family: "Menlo", "Monaco", monospace;
+}

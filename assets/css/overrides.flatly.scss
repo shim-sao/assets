@@ -30,6 +30,8 @@ h2, h3, h4, h5, h6 {
 a:focus, button:focus, input:focus, img:focus { outline:0 }
 .justify, .justified { text-align:justify }
 .pull-left { float:left; }
+.bordered { border:1px solid #ccc }
+.screenshot-full { width:100%; }
 
 .container {
   padding: 0 2rem;

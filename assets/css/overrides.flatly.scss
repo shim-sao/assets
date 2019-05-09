@@ -25,6 +25,11 @@ h2, h3, h4, h5, h6 {
   font-weight: 400;
 }
 
+pre code {
+  line-height: 1rem;
+  font-size: .65rem;
+}
+
 .clearfix { clear:both; }
 .debug { border:1px solid red; background: yellow; }
 a:focus, button:focus, input:focus, img:focus { outline:0 }

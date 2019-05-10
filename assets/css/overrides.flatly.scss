@@ -25,11 +25,18 @@ h2, h3, h4, h5, h6 {
   font-weight: 400;
 }
 
+pre code {
+  line-height: 1.25rem;
+  font-size: 1rem;
+}
+
 .clearfix { clear:both; }
 .debug { border:1px solid red; background: yellow; }
 a:focus, button:focus, input:focus, img:focus { outline:0 }
 .justify, .justified { text-align:justify }
 .pull-left { float:left; }
+.bordered { border:1px solid #2a363b }
+.screenshot-full { width:100%; padding: 0; margin: 0 }
 
 .container {
   padding: 0 2rem;

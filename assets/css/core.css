@@ -1,18 +1,11 @@
 
-/*
-body .nav > li > a.nav-link-lang {
-  margin: 0;
-  padding: 0;
-  border:0;
-  display: inline;
-}
-
-.nav-link-lang img {
-  margin: 0 .5rem;
-  padding: 0;
-  border:0;
-}
-*/
+/*!
+ * XtrmAddons Core v0.1.0
+ * Homepage: https://shim-sao.github.io/assets
+ * Copyright 2019-2019 Shim-Sao
+ * Licensed under MIT
+ * XtrmAddons Core CSS
+ */
 
 
 #content-submenu { background: #F2F2F2; padding: 0.5rem; padding-top:0; }

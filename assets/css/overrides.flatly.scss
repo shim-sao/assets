@@ -2,7 +2,7 @@
 ---
 
 /*!
- * XtrmAddons Overrides Flatly v0.1.1
+ * XtrmAddons Overrides Flatly v0.1.2
  * Homepage: https://shim-sao.github.io/assets
  * Copyright 2019-2019 Shim-Sao
  * Licensed under MIT
@@ -19,6 +19,11 @@ h1 {
   color: #2a363b;
   font-weight: 700;
 }
+
+h1, h2 {
+  line-height: 2;
+}
+
 
 h2, h3, h4, h5, h6 {
   color: #2a363b;

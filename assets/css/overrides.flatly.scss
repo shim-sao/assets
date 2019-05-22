@@ -2,7 +2,7 @@
 ---
 
 /*!
- * XtrmAddons Overrides Flatly v0.1.2
+ * XtrmAddons Overrides Flatly v0.1.3
  * Homepage: https://shim-sao.github.io/assets
  * Copyright 2019-2019 Shim-Sao
  * Licensed under MIT
@@ -33,6 +33,10 @@ h2, h3, h4, h5, h6 {
 pre, code {
   line-height: 1.25rem;
   font-size: 1rem;
+}
+
+pre code {
+  font-size: .8rem;
 }
 
 code span {

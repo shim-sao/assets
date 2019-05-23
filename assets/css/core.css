@@ -16,7 +16,7 @@
 /*.container-breadcrumb { background: #F2F2F2; }*/
 .container-breadcrumb .container { background: #F2F2F2; padding: 0; }
 .container-breadcrumb nav { background: #ff847c; padding: 0; }
-.breadcrumb  { color: #fff; background: transparent; }
+.breadcrumb  { color: #fff; background: transparent; margin-bottom:0 !important }
 .breadcrumb a { color: #fff; }
 .breadcrumb > li + li::before { padding: 0 5px; color: #FFF; content: ">"; }
 .breadcrumb > .active { color: #E84A5F; }

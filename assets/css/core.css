@@ -13,7 +13,7 @@
 #content-submenu a { border: 0; color: #FFF; }
 #content-submenu .container { padding:0; }
 
-.container-breadcrumb { background: #F2F2F2; padding-top: 0.5rem }
+/*.container-breadcrumb { background: #F2F2F2; }*/
 .container-breadcrumb .container { background: #F2F2F2; padding: 0; }
 .container-breadcrumb nav { background: #ff847c; padding: 0; }
 .breadcrumb  { color: #fff; background: transparent; }
